@@ -24,9 +24,9 @@ export default function Navbar() {
                         </div>
                     </div>
                     
-                    <form>
+                    <div className="searchBar">
                         <input className="search" type="text" placeholder="SEARCH SOMETHING" />
-                    </form>
+                    </div>
             
             </ul>
             

@@ -17,46 +17,60 @@ body{
     align-items: center;
     gap: 2rem;
     padding : 0 1rem;
-    font-size: 20px;
     position: fixed;
     z-index: 999;
+    height: 60px;
 }
 
 .nav h1.site-title{
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 .nav ul{
+    font-size: 17px;
     padding: 0;
     margin: 0;
     list-style: none;
     display:flex;
+    align-items: center;
     gap: 3rem;
-    font-size: 12px;
+    font-size: 8px;
 }
 
-.nav form input{
+.nav ul h1:hover{
+    color:yellow;
+}
+
+
+.nav .searchBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav .searchBar input{
     background: none;
     color:white;
     border: none;
+    font-size:15px;
     outline: none;
     display: flex;
     justify-content: space-between;
-    align-items: bottom;
-    padding-right: 20px;
-    padding-top: 15px;
+    padding-right: 15px;
     
 }
 
-.nav form input::placeholder{
+.nav .searchBar input::placeholder{
     font-weight: bold;
     opacity: 0.5;
     color: white;
 }
+
+
 
 .dropbtn {
     background: none;
